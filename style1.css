@@ -1,0 +1,202 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Apercu Pro Bold';
+}
+
+body {
+    font-family: 'Apercu Pro';
+    color: #1B281D;
+}
+
+.fsb16 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fs16 {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.fsb18 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.fsb20 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb26 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fs26 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb32 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb40 {
+    font-size: 40.64px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb48 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb64 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.navbar-nav {
+    gap: 20px;
+    align-items: center;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.btn1 {
+    padding: 20px 30.48px;
+    background: #1B281D;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn2 {
+    padding: 20.32px 30.48px;
+    background: #FFFFFF;
+    border: 1px solid #1B281D;
+    border-radius: 6.35px;
+    font-weight: 700;
+    color: #224540;
+}
+
+.forest {
+    color: #1B281D;
+}
+
+.green {
+    color: #224540;
+}
+
+.w_max1440 {
+    max-width: 1440px;
+}
+
+.cards {
+    width: 340px;
+    background-color: #FFFFFF;
+    border-radius: 6.35px;
+}
+
+.cards:hover {
+    background-color: #E8EDEE;
+}
+
+.cards:hover .btn2 {
+    background-color: #224540 !important;
+    color: #fff !important;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.btn3 {
+    padding: 16px 24px;
+    background-color: #224540;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fs59 {
+    font-size: 59px;
+    font-weight: 700;
+}
+
+.fs30 {
+    font-size: 30.76px;
+    font-weight: 700;
+}
+
+.w243 {
+    width: 243.46px;
+}
+
+.cards2 {
+    /* width: ; */
+}
+
+.cards3 {
+    width: 341px;
+}
+
+.cards.cards3:hover .btn2 {
+    background-color: #1B281D !important;
+    color: white !important;
+}
+
+.red {
+    display: none;
+}
+
+input {
+    height: 48px;
+}
+
+@media screen and (max-width:1500px) and (min-width:1300px) {
+    .cards {
+        width: 300px;
+        background-color: #FFFFFF;
+        border-radius: 6.35px;
+    }
+}
+
+@media screen and (max-width:1300px) and (min-width:1000px) {
+    .cards {
+        width: 290px;
+        background-color: #FFFFFF;
+        border-radius: 6.35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .w100m {
+        width: 100% !important;
+    }
+    .fsm40 {
+        font-size: 40px;
+    }
+    .whats {
+        background-image: url(media/what\ makes\ us\ differentM.png) !important;
+    }
+}

@@ -1,0 +1,714 @@
+@font-face {
+    font-family: 'Apercu Pro';
+    src: local('Apercu Pro Regular'), local('Apercu-Pro-Regular'), url('fonts/ApercuPro-Regular.woff2') format('woff2'), url('fonts/ApercuPro-Regular.woff') format('woff'), url('fonts/ApercuPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Pro Bold';
+    src: local('Apercu Pro Bold'), local('Apercu-Pro-Bold'), url('fonts/ApercuPro-Bold.woff2') format('woff2'), url('fonts/ApercuPro-Bold.woff') format('woff'), url('fonts/ApercuPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1B281D;
+}
+
+button {
+    background-color: #1B281D
+}
+
+.fsb16 {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.fs16 {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.fsb18 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.fsb20 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.fsb26 {
+    font-size: 26px;
+    font-weight: 700
+}
+
+.fs26 {
+    font-size: 26px;
+    font-weight: 700
+}
+
+.fsb32 {
+    font-size: 32px;
+    font-weight: 700
+}
+
+.fs32 {
+    font-size: 32px;
+    font-weight: 700
+}
+
+.fsb40 {
+    font-size: 40.64px;
+    font-weight: 700
+}
+
+.fsb48 {
+    font-size: 48px;
+    font-weight: 700
+}
+
+.fs48 {
+    font-size: 48px;
+    font-weight: 700
+}
+
+.fs64 {
+    font-size: 64px;
+    font-weight: 700
+}
+
+.fsb64 {
+    font-size: 64px;
+    font-weight: 700
+}
+
+a {
+    color: white
+}
+
+.desktop {
+    display: block
+}
+
+.mobile {
+    display: none;
+}
+
+.failed {
+    padding-left: 50px
+}
+
+.failedPic {
+    order: 2;
+}
+
+.failedOrder {
+    order: 1;
+}
+
+.error {
+    padding: 200px 0px 200px
+}
+
+.faq1 {
+    order: 1
+}
+
+.faq1 .touch {
+    padding: 70px 0px 50px
+}
+
+.faq2 {
+    order: 2
+}
+
+.productHead p {
+    padding-right: 20px
+}
+
+.disk {
+    width: 341px;
+    /* margin: 6px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Apercu Pro Bold';
+}
+
+body {
+    font-family: 'Apercu Pro';
+    color: #1B281D;
+}
+
+.fsb16 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fs16 {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.fsb18 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.fsb20 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb26 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fs26 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb32 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb40 {
+    font-size: 40.64px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb48 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.fsb64 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Apercu Pro Bold';
+}
+
+.navbar-nav {
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-link {
+    color: #1B281D;
+}
+
+.header {
+    background-color: #fff;
+    height: 100px;
+}
+
+.cartD .dropdown-toggle::after {
+    display: none !important;
+}
+
+.cartD .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    width: 375px;
+    left: -300px;
+    top: 60px;
+    background-color: #F0E9E3;
+}
+
+.btn1 {
+    padding: 20px 30.48px;
+    background: #1B281D;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.btn2 {
+    padding: 20.32px 30.48px;
+    background: #FFFFFF;
+    border: 1px solid #1B281D;
+    border-radius: 6.35px;
+    font-weight: 700;
+    color: #224540;
+    text-transform: capitalize;
+}
+
+.btn5 {
+    width: 143px;
+    height: 52px;
+    padding: 0 16px;
+    background: #FFFFFF;
+    border: 1px solid #1B281D;
+    border-radius: 6.35px;
+    font-weight: 700;
+    color: #224540;
+    text-transform: capitalize;
+}
+
+.forest {
+    color: #1B281D;
+}
+
+.green {
+    color: #224540;
+}
+
+.w_max1440 {
+    max-width: 1440px;
+}
+
+.cards {
+    width: 340px;
+    background-color: #FFFFFF;
+    border-radius: 6.35px;
+}
+
+.cards:hover {
+    background-color: #E8EDEE;
+}
+
+.cards:hover .btn2 {
+    background-color: #224540 !important;
+    color: #fff !important;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.btn3 {
+    padding: 16px 24px;
+    background-color: #224540;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn4 {
+    padding: 14px 23px;
+    /* padding: 16px 24px; */
+    background-color: #1B281D;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fs59 {
+    font-size: 59px;
+    font-weight: 700;
+}
+
+.fs30 {
+    font-size: 30.76px;
+    font-weight: 700;
+}
+
+.w243 {
+    width: 243.46px;
+}
+
+.cards2 {
+    /* width: ; */
+}
+
+.cards3 {
+    width: 341px;
+}
+
+.cards.cards3:hover .btn2 {
+    background-color: #1B281D !important;
+    color: white !important;
+}
+
+.red {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked~div .checkd {
+    background-color: #1B281D;
+    background-image: url(media/tick.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkd {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #1B281D;
+    border-radius: 5px;
+}
+
+input,
+select {
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 170px;
+}
+
+.qytIN {
+    border: none;
+    width: 40px;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    height: 30px;
+    color: #1B281D;
+}
+
+.bb {
+    width: 131px;
+}
+
+.modal-dialog {
+    max-width: 600px !important;
+}
+
+.header {
+    z-index: 999;
+}
+
+.accordion-item:first-of-type .accordion-button,
+.accordion-item {
+    border-radius: 5px;
+}
+
+.accordion-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.accordion-button::after {
+    background-image: url(media/caret\ down.svg) !important;
+    margin-right: 30px;
+    /* width: 11.67px; */
+    /* height: 23.33px; */
+    background-position: center;
+    /* background-size: contain; */
+}
+
+.marL {
+    margin-left: -50px;
+}
+
+.gap22 {
+    gap: 22px;
+}
+
+.lh96 {
+    line-height: 96px;
+}
+
+.pagess {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1B281D !important;
+}
+
+.pagess a {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Apercu Pro';
+}
+
+.pagess.active {
+    color: #9B9B9B !important;
+}
+
+::placeholder {
+    opacity: 1 !important;
+    font-weight: 400 !important;
+}
+
+@media screen and (max-width:1700px) and (min-width:1600px) {
+    .gav {
+        width: 85% !important;
+    }
+}
+
+@media screen and (max-width:1600px) and (min-width:1500px) {
+    .gav {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width:1300px) {
+    .cards {
+        width: 300px;
+        background-color: #FFFFFF;
+        border-radius: 6.35px;
+    }
+    .cartD .dropdown-menu {
+        left: -350px;
+    }
+    .marL {
+        margin-left: 0;
+    }
+    .disk {
+        width: 297px;
+    }
+    .gav,
+    .our {
+        width: 100% !important;
+    }
+    .para {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width:1300px) and (min-width:1000px) {
+    .cards {
+        width: 290px;
+        background-color: #FFFFFF;
+        border-radius: 6.35px;
+    }
+    .cartD .dropdown-menu {
+        left: -400px;
+    }
+    .marL {
+        margin-left: 0;
+    }
+    .disk {
+        width: 297px;
+    }
+    .our,
+    .gav {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bb {
+        width: 155.5px !important;
+    }
+    .header {
+        height: 90px;
+    }
+    .lh50 {
+        line-height: 50px;
+    }
+    .lh96 {
+        line-height: 51px;
+    }
+    .modal-dialog {
+        max-width: 100% !important;
+    }
+    .mxa {
+        margin: auto !important;
+    }
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+    .btn1,
+    .btn2 {
+        padding: 16px 24px;
+    }
+    .accordion-button {
+        line-height: 200%;
+    }
+    .accordion-button div {
+        padding-right: 40px;
+    }
+    .marL {
+        margin-left: 0;
+    }
+    .fsm32 {
+        font-size: 32px !important;
+    }
+    .textUP {
+        text-transform: uppercase !important;
+    }
+    .bg-w {
+        background-color: #FFFFFF !important;
+    }
+    .bgBrown {
+        background: #F0E9E3 !important;
+    }
+    .navbar-nav {
+        background-color: #224540;
+        gap: 0px;
+        padding-top: 20px;
+    }
+    .navbar-toggler {
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    .d_menu_o,
+    .d_menu_c {
+        display: none;
+    }
+    .d_menu_c {
+        top: 0px;
+        height: 100%;
+        background-color: #224540;
+        z-index: 99;
+        left: 0;
+        padding: 0 40px;
+        overflow-y: scroll;
+    }
+    .m_menu {
+        top: 0px;
+        /* left: 0px; */
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        height: 100%;
+        /* justify-content: center; */
+        background-color: #224540;
+    }
+    #myNav {
+        padding-top: 20px;
+        margin-top: 25px;
+        /* padding-left: 20px; */
+        background-color: #224540;
+    }
+    .pad0 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        color: #fff;
+        font-weight: 500 !important;
+    }
+    .nav-item {
+        padding: 10px 0;
+        width: 90%;
+        text-align: center;
+        border-bottom: 1px solid #ffffff30;
+    }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm18 {
+        font-size: 18px !important;
+    }
+    .order1 {
+        width: 100%;
+        margin: auto;
+    }
+    .order2 {
+        width: 90%;
+        margin: auto;
+        padding: 30px 0px 30px
+    }
+    .desktop {
+        display: none
+    }
+    .mobile {
+        display: block;
+    }
+    .failed {
+        padding-left: 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .failedPic {
+        order: 1;
+    }
+    .failedOrder {
+        order: 2
+    }
+    .error {
+        padding: 100px 0px 100px
+    }
+    .heading {
+        text-align: center;
+    }
+    .touch {
+        width: 90%;
+        margin: auto;
+    }
+    .faq1 {
+        order: 2;
+        text-align: center;
+    }
+    .faq2 {
+        order: 1;
+    }
+    .faq1 .touch {
+        padding: 30px 0px 50px
+    }
+    .productHead div {
+        text-align: center;
+    }
+    .productHead p {
+        padding-right: 0px
+    }
+    .disk {
+        width: 90%;
+        margin: auto;
+    }
+    .w100m {
+        width: 100% !important;
+    }
+    .fsm40 {
+        font-size: 40px;
+    }
+    .fsm26 {
+        font-size: 26px !important;
+    }
+    .whats {
+        background-image: url(media/what\ makes\ us\ differentM.png) !important;
+        background-size: cover !important;
+    }
+    .nobg {
+        background-image: none !important;
+    }
+    .ref {
+        display: none;
+    }
+    .err {
+        background-image: url(media/404M.png) !important;
+    }
+    .error {
+        padding: 40px 0px 40px
+    }
+    textarea {
+        height: 170px;
+    }
+    .bgno {
+        background-image: none !important;
+    }
+}

@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'
+        integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style1.css"> -->
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="header position-sticky" style="top:0">
+        <div class="container w_max1440 py-lg-3">
+            <div class="row align-items-center">
+                <div class="col pad0 align-items-center">
+                    <nav class="navbar  navbar-expand-md align-items-center">
+                        <a href="index.html" class="navbar-brand ps-3  py-lg-0 px-lg-0 p-0">
+                            <img src="media/logo.png" class="img-fluid d-none d-lg-inline-block" />
+                            <img src="media/logoM.svg" class="mt-4 p-0 d-inline-block d-lg-none" /><br>
+                        </a>
+                        <button
+                            class="pe-3 px-lg-0 navbar-toggler mt-lg-0 mt-4 green d-lg-none d-flex gap-3 pe-4 align-items-center border-0 fsb16"
+                            data-bs-toggle="collapse" data-bs-target="#myNav">Menu
+                            <i class="fa fa-caret-down mt-" style="margin-top: 2px; font-size:16px;color:#1B281D"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="myNav">
+                            <div class="fs18 back text-start px-4 mt-4 fsm18 d-lg-none gap-3 d-flex align-items-center text-white"
+                                style="font-weight: 500;">
+                                <img src="media/caret left.svg" alt="" class=""> Go back
+                            </div>
+                            <ul class="navbar-nav position-relative gap-lg-4">
+
+                                <li class="nav-item">
+                                    <a class="nav-link fsb16" href="store.html">STORE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fsb16" href="about.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fsb16" href="get in touch.html">CONTACT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fsb16 " href="FAQ.html">FAQ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link fsb16 fsm26  dropdown-toggle" data-bs-toggle="dropdown"
+                                        href="#">GBP
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">GBA</a>
+                                        <a class="dropdown-item" href="#">GBA</a>
+                                        <a class="dropdown-item" href="#">GBA</a>
+                                    </ul>
+                                </li>
+
+
+                                <div class="d-lg-none d-block w-100 ">
+                                    <div class="d-flex justify-content-center gap-4 py-4 align-items-center">
+                                        <a class="nav-link fsb16 fsm26 userd" href="#"><img src="media/user.svg"></a>
+                                        <div> <img src="media/Vector 18.png" alt=""></div>
+                                        <a class="nav-link fsb16 fsm26 cartb" href="#"><img
+                                                src="media/ic-ecommerce-basket.svg"></a>
+                                    </div>
+                                    <div class="d_menu_o men" style="border-top: 1px solid #ffffff30;">
+                                        <div class="w-100 m_menu position-absolute">
+                                            <li
+                                                class="nav-item d-flex justify-content-center gap-4 py-4 align-items-center">
+                                                <a class="nav-link fsb16 fsm26 userd" href="#"><img
+                                                        src="media/user.svg"></a>
+                                                <div> <img src="media/Vector 18.png" alt=""></div>
+                                                <a class="nav-link fsb16 fsm26 cartb" href="#"><img
+                                                        src="media/ic-ecommerce-basket.svg"></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fsb16 fsm26 " href="#">Account details</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fsb16 fsm26 " href="#">Order history</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link fsb16 fsm26 " href="#">Logout</a>
+                                            </li>
+                                        </div>
+                                    </div>
+
+                                    <div class="d_menu_c men position-absolute">
+                                        <li
+                                            class="nav-item w-100 d-flex justify-content-center gap-4 py-4 align-items-center">
+                                            <a class="nav-link fsb16 fsm26 userd" href="#"><img
+                                                    src="media/user.svg"></a>
+                                            <div> <img src="media/Vector 18.png" alt=""></div>
+                                            <a class="nav-link fsb16 fsm26 cartb" href="#"><img
+                                                    src="media/ic-ecommerce-basket.svg" style="opacity: 0.2;"></a>
+                                        </li>
+                                        <div class=" col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <button class="btn4 bg-white green w-100 my-3"
+                                            style="color: #224540 !important; border: 1px solid #C5B9AC !important;">
+                                            Go to payment
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                                <li class="nav-item d-none d-lg-block">
+                                    <img src="media/LINE.svg" alt="">
+                                </li>
+                                <li class="nav-item d-none d-lg-block">
+                                    <a class="nav-link fsb16 " href="#"><img src="media/user.png"></a>
+                                </li>
+                                <li class="nav-item dropdown cartD d-none d-lg-block">
+                                    <a class="nav-link fsb16  dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                        <img src="media/Layer.png">
+                                    </a>
+                                    <ul class="dropdown-menu px-4">
+                                        <div class="col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7 py-2">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7 py-2">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" col-lg-12 mx-auto pt-4">
+                                            <div class="row bg-white">
+                                                <div class="col-5 p-0">
+                                                    <img src="media/A 1.png" class="img-fluid h-100"
+                                                        style="object-fit: cover;">
+                                                </div>
+                                                <div class="col-7 py-2">
+                                                    <div class="row position-relative " style="color: #224540;">
+                                                        <div class="fsb26 pb-1 col-11" style="color: #224540;">
+                                                            A.I In Digital Marketing
+                                                        </div>
+                                                        <div class="col-1 p-0 position-absolute" style="right: 10px;">
+                                                            <img src="media/close.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fs16 fw400 pb-2 desktop" style="color: #224540;">
+                                                        Integer ullamcorper urna quam...
+                                                    </div>
+
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4 fs16" style="color: #224540;">38.99</div>
+                                                        <div class="col-7 text-end">
+                                                            <div class=" d-flex align-items-center justify-content-end">
+
+                                                                <a href="#"><img src="media/minus.png"></a>
+
+                                                                <input type="text" class="qytIN" value="1">
+
+                                                                <a href="#"><img src="media/plus.png"></a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <button class="btn4 bg-white green w-100 my-3"
+                                            style="color: #224540 !important; border: 1px solid #C5B9AC !important;">
+                                            Go to payment
+                                        </button>
+                                    </ul>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #F0E9E3">
+        <div class="row justify-content-end pb-5 pb-lg-0 align-items-center">
+            <div class="col-lg-6 col-md-7 d-flex justify-content-end col-sm-12 pe-lg-5 order-lg-0 order-1">
+                <div class="col-lg-9 gav ps-lg-3 pe-lg-5">
+                    <h2 class="fsb64 fsm40 lh96 text-lg-start text-center mt-4 mt-lg-0">
+                        Beat the <br class="d-block d-lg-none"> crowd <br class="d-lg-block d-none"> with <br
+                            class="d-block d-lg-none"> Gavi <span class="green"> Services</span>
+                    </h2>
+                    <p class="fs16 forest text-lg-start text-center pe-lg-4 ">Lorem ipsum dolor sit amet consectetur. Ut
+                        ultrices viverra laoreet mattis sapien consectetur lobortis viverra. Eu nulla nunc maecenas a
+                        lacus eleifend fermentum vitae. Pulvinar neque imperdiet in semper ac. Aliquam egestas
+                        adipiscing
+                        donec.
+                    </p>
+                    <div class="col-lg-7 mt-lg-4 ">
+                        <button class="fs16 fw-bold btn1 d-flex w-100 gap-3 align-items-center justify-content-center">
+                            Find out more
+                            <img src="media/small long left.svg" class="d-none d-lg-inline pt-1" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12 px-0 ">
+                <img src="media/home1.png" class=" d-none d-lg-block w-100">
+                <img src="media/home1m.png" class="d-block d-lg-none w-100">
+            </div>
+        </div>
+    </div>
+
+    <section style="background-color: #F8F8F8;">
+        <div class="container w_max1440 py-5">
+            <div class="d-flex col-lg-12 justify-content-lg-between pb-5 align-items-center">
+                <h2 class="fsb48 fsm40 text-center text-lg-start marL px-4 px-lg-0">We offer a range of products</h2>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <button class="w-100 btn1 d-flex justify-content-center gap-3 align-items-center">
+                        Visit store
+                        <img src="media/small long left.svg" class="pt-1" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-lg-flex gap-4 d-none">
+                <div class="col cards ">
+                    <img src="media/Rectangle 103.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <h3 class="fsb40">articles</h3>
+                        <p class="fs16 fw400 py-3 pe-5">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+                        <button class="btn2 w-100">
+                            Find out more
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards ">
+                    <img src="media/Rectangle 103.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <h3 class="fsb40">articles</h3>
+                        <p class="fs16 fw400 py-3 pe-5">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+                        <button class="btn2 w-100">
+                            Find out more
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards ">
+                    <img src="media/Rectangle 103.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <h3 class="fsb40">articles</h3>
+                        <p class="fs16 fw400 py-3 pe-5">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+                        <button class="btn2 w-100">
+                            Find out more
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards ">
+                    <img src="media/Rectangle 103.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <h3 class="fsb40">articles</h3>
+                        <p class="fs16 fw400 py-3 pe-5">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+                        <button class="btn2 w-100">
+                            Find out more
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme d-lg-none d-lg-block">
+                <div class="item">
+                    <div class="cards">
+                        <img src="media/Rectangle 103.png" class="w-100" alt="">
+                        <div class="p-4">
+                            <h3 class="fsb40">articles</h3>
+                            <p class="fs16 fw400 py-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                                tristique sem justo.
+                            </p>
+                            <button class="btn2 w-100">
+                                Find out more
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <img src="media/Rectangle 103.png" class="w-100" alt="">
+                        <div class="p-4">
+                            <h3 class="fsb40">articles</h3>
+                            <p class="fs16 fw400 py-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                                tristique sem justo.
+                            </p>
+                            <button class="btn2 w-100">
+                                Find out more
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-12  d-flex justify-content-center d-lg-none mt-3">
+                <button class="w243 w100m btn1 d-flex justify-content-center gap-3 align-items-center">
+                    Visit store
+                    <img src="media/small long left.svg" class="pt-1" alt="">
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="py-lg-5 py-4 whats px-lg-0 px-4"
+        style="background-image: url(media/what\ makes\ us\ different.png); background-position-x: center; background-repeat: no-repeat;">
+
+
+        <div class="col-xxl-5 col-xl-7 para py-3 px-xxl-5 px-xl-0 mx-auto text-center text-white">
+            <h2 class="fsb48 fsm40 px-lg-0 px-4">What makes us <br> <span style="color: #F0E9E3;">different</span> from
+                the rest</h2>
+            <p class="fs16 px-lg-3 px-2 py-lg-0 py-4">
+                Proin amet tempus sed lacus elit quis. Faucibus id bibendum pellentesque aliquam aliquam. Enim
+                elementum, morbi aliquam velit nulla ultricies tellus. Pharetra sapien proin auctor molestie porttitor.
+                Gravida in aliquam lacus, tincidunt nec tristique ut.
+                Libero blandit sed vel.
+            </p>
+
+            <button class="btn3 w100m">About Us</button>
+        </div>
+    </section>
+
+    <section class="py-lg-5" style="background-color: #F0E9E3;">
+        <div class="container py-5 px-4 px-lg-0">
+            <div class="row col-lg-12 gap-lg-5 gap-3 mx-auto justify-content-around">
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/Group 17.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Affordable Prices</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/wide.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Wide variety</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/real.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Real specialists</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row col-lg-12 gap-5 mx-auto justify-content-around pt-5">
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/flex.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Flexibility</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/novice.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Novice to expert</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="pt-3 cards2 col-lg-3 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/multiple.svg" class="" alt="">
+                    <div class="py-3">
+                        <h3 class="fs26">Multiple devices</h3>
+                        <p class="fs16 fw400 pt-3">Integer ullamcorper urna quam faucibus pretium tristique arcu
+                            tristique sem justo.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section style="background-color: #F8F8F8;">
+        <div class="container w_max1440 py-5 overflow-hidden">
+            <div class="d-flex col-lg-12 justify-content-center pb-5 align-items-center">
+                <h2 class="fsb48 fsm40 text-center text-lg-start">Our most <br class="d-lg-none d-block"> popular
+                    products
+                </h2>
+
+            </div>
+
+            <div class="d-lg-flex gap-4 d-none">
+                <div class="col cards cards3 ">
+                    <img src="media/A 11.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <span class="fsb20">e-Book</span>
+                        <h3 class="fsb40 mt-3">A.I in digital marketing</h3>
+                        <p class="fs16 fw400 pt-3 pe-4">Integer ullamcorper urna quam faucibus pretium tristique...
+                        </p>
+                        <div class=" fsb26 pb-3">38.99 GBP</div>
+                        <button class="btn2 w-100">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards cards3 ">
+                    <img src="media/A 11.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <span class="fsb20">Video</span>
+                        <h3 class="fsb40 mt-3">A.I in digital marketing</h3>
+                        <p class="fs16 fw400 pt-3 pe-4">Integer ullamcorper urna quam faucibus pretium tristique...
+                        </p>
+                        <div class=" fsb26 pb-3">38.99 GBP</div>
+                        <button class="btn2 w-100">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards cards3 ">
+                    <img src="media/A 11.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <span class="fsb20">Software</span>
+                        <h3 class="fsb40 mt-3">A.I in digital marketing</h3>
+                        <p class="fs16 fw400 pt-3 pe-4">Integer ullamcorper urna quam faucibus pretium tristique...
+                        </p>
+                        <div class=" fsb26 pb-3">38.99 GBP</div>
+                        <button class="btn2 w-100">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col cards cards3 ">
+                    <img src="media/A 11.png" class="w-100" alt="">
+                    <div class="p-4">
+                        <span class="fsb20">Templates</span>
+                        <h3 class="fsb40 mt-3">A.I in digital marketing</h3>
+                        <p class="fs16 fw400 pt-3 pe-4">Integer ullamcorper urna quam faucibus pretium tristique...
+                        </p>
+                        <div class=" fsb26 pb-3">38.99 GBP</div>
+                        <button class="btn2 w-100">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme d-lg-none d-lg-block">
+                <div class="item">
+                    <div class="cards">
+                        <img src="media/A 3.png" class="img-fluid w-100">
+                        <div class="col py-3" style="border:3px solid #E8EDEE">
+                            <div class="col-10 mx-auto">
+                                <div class="fsb20 pb-3">e-Book</div>
+                                <div class="fsb40 pb-3">A.I in digital marketing</div>
+                                <div class="fs16 pb-3">Integer ullamcorper urna quam faucibus pretium tristique...</div>
+                                <div class="fsb26 pb-3">38.99 GBP</div>
+                                <button type="button" class="w-100 text-dark bg-white fsb16"
+                                    style="padding:20px 30px 20px 30px;border:1px solid #1B281D">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <img src="media/A 3.png" class="img-fluid w-100">
+                        <div class="col py-3" style="border:3px solid #E8EDEE">
+                            <div class="col-10 mx-auto">
+                                <div class="fsb20 pb-3">e-Book</div>
+                                <div class="fsb40 pb-3">A.I in digital marketing</div>
+                                <div class="fs16 pb-3">Integer ullamcorper urna quam faucibus pretium tristique...</div>
+                                <div class="fsb26 pb-3">38.99 GBP</div>
+                                <button type="button" class="w-100 text-dark bg-white fsb16"
+                                    style="padding:20px 30px 20px 30px;border:1px solid #1B281D">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center mt-lg-5 mt-3">
+                <div class="d-flex justify-content-center">
+                    <button class="w100m w243 btn1 d-flex justify-content-center gap-3 align-items-center">
+                        Visit store
+                        <img src="media/small long left.svg" class="pt-1" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="py-5 text-center px-4 px-lg-0" style="background-color: #F0E9E3;">
+        <h3 class="fsb48 fsm40">We are proven to help your business grow</h3>
+        <div class="col-lg-5 px-lg-5 py-4  mx-auto text-center ">
+            <p class="fs16 px-lg-3">
+                Proin amet tempus sed lacus elit quis. Faucibus id bibendum pellentesque aliquam aliquam. Enim
+                elementum, morbi aliquam velit nulla ultricies tellus. Pharetra sapien proin auctor molestie porttitor.
+                Gravida in aliquam lacus, tincidunt nec tristique ut.
+                Libero blandit sed vel.
+            </p>
+        </div>
+        <div class="container w_max1440 px-0">
+            <div class="d-flex gap-5 flex-wrap flex-lg-nowrap">
+                <div class="pt-3 cards2 col-lg w100m col-sm-12 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/great.svg" class="" alt="">
+                    <div class="py-2 pt-5">
+                        <h3 class="fs48">280+
+                        </h3>
+                        <p class="fs30"> Great products
+                        </p>
+
+                    </div>
+                </div>
+                <div class="pt-3 cards2 col-lg w100m col-sm-12 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/exept.svg" class="" alt="">
+                    <div class="py-2 pt-5">
+
+
+                        <h3 class="fs48"> 100%
+                        </h3>
+                        <p class="fs30"> Exeptional service
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="pt-3 cards2 col-lg w100m col-sm-12 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/security.svg" class="" alt="">
+                    <div class="py-2 pt-5">
+                        <h3 class="fs48">99%
+                        </h3>
+                        <p class="fs30"> User security
+                        </p>
+
+                    </div>
+                </div>
+                <div class="pt-3 cards2 col-lg w100m col-sm-12 bg-white text-center" style="border-radius: 6.35px;">
+                    <img src="media/quality.svg" class="" alt="">
+                    <div class="py-2 pt-5">
+                        <h3 class="fs48">100%
+
+                        </h3>
+                        <p class="fs30"> Product quality
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <footer class="py-lg-4 py-2" style="background-color: #1B281D">
+        <div class="container py-lg-5">
+            <div class="row px-3 px-lg-0">
+                <div class="col-xxl-5 col-xl-4 col-md-5 col-sm-12 p-0 mb-4">
+                    <div class="col-lg-10 col-md-10 col-sm-12 mx-auto pt-5 pb-lg-4 pb-3 ms-3">
+                        <div class="col-lg-8 col-10">
+                            <img src="media/logo1.png" class="pb-3">
+                        </div>
+                        <p class="col-12 fs16 pb-lg-0 pb-lg-3 pb-1" style="color: #F0E9E3;">
+                            © 2023 Gavi Services. All Rights Reserved
+                        </p>
+                        <div class="col-lg-8 col-9">
+                            <img src="media/mastercard.png" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-7 col-xl-8 col-md-7 col-sm-12">
+                    <div class="row justify-content-center gap-3 ms-auto">
+                        <div class="col-xxl-4 col-xl-4 col-sm-12 p-0 mb-4">
+                            <div class="text-capitalize fsm26 fsb32 text-white pb-2 pb-lg-0">important links</div>
+                            <div class="d-flex flex-column gap-2 gap-3 mt-3 flex-lg-nowrap flex-wrap fls">
+                                <a href="store.html" class="text-decoration-none fsb16">Store</a>
+                                <a href="about.html" class="text-decoration-none fsb16">About Us</a>
+                                <a href="get in touch.html" class="text-decoration-none fsb16">Contact Us</a>
+                                <a href="FAQ.html" class="text-decoration-none fsb16">FAQs</a>
+                                <a href="login register.html" class="text-decoration-none fsb16">Login/Register</a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-sm-12 p-0 mb-4 ms-0">
+                            <div class="text-capitalize fsm26 fsb32 text-white pb-2 pb-lg-0">Legals</div>
+                            <div class="d-flex flex-column gap-2 gap-3 mt-3 flex-lg-nowrap flex-wrap fls">
+                                <a href="terms.html" class="text-decoration-none fsb16">Terms And Conditions</a>
+                                <a href="privacy policy.html" class="text-decoration-none fsb16">Privacy Policy</a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-sm-12 p-0 mb-4">
+                            <div class="text-capitalize fsm26 fsb32 text-white pb-2 pb-lg-0">Contacts</div>
+                            <div class="d-flex flex-column gap-2 gap-3 mt-3 flex-lg-nowrap flex-wrap fls">
+                                <a href="#" class="text-decoration-none fsb16">Tel:<span class="fs16"> +44 7700
+                                        123456<span></a>
+                                <a href="#" class="text-decoration-none fsb16">Email: <span
+                                        class="fs16">info@gaviservices.com</span></a>
+                                <a href="#" class="text-decoration-none fsb16">Address: <span class="fs16">123 London
+                                        Street,<br class="d-block d-lg-none"> London, AB1 2CD</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
+        integrity='sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=='
+        crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'
+        integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=='
+        crossorigin='anonymous'></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.back').click(function () {
+                $('.men').hide();
+
+            })
+            $('.userd').click(function () {
+                $('.d_menu_o').toggle();
+                $('.d_menu_c').hide();
+            });
+            $('.cartb').click(function () {
+                $('.d_menu_c').toggle();
+                $('.d_menu_o').hide();
+            })
+        })
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 40,
+            nav: false,
+            stagePadding: 5,
+            center: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
